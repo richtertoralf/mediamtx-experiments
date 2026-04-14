@@ -1,3 +1,10 @@
+# mediamtx-experiments
+
+![Status](https://img.shields.io/badge/Status-Historical%20Reference-blue)
+![Type](https://img.shields.io/badge/Type-Tools%20%26%20Scripts-green)
+![Stack](https://img.shields.io/badge/Stack-Bash%20%2B%20Python-orange)
+![Focus](https://img.shields.io/badge/Focus-MediaMTX%20API%20%26%20Viewer-purple)
+
 Dieses Repository entstand zu einer Zeit, in der rtsp-simple-server gerade zu mediamtx weiterentwickelt wurde. Für meine eigenen Streaming‑Workflows war das ein interessanter Moment, denn ich arbeitete damals viel mit RTSP‑basierten PTZ‑Überwachungskameras, die wir für Sport‑Livestreaming eingesetzt haben. Diese Kameras liefern robuste Streams, aber ausschließlich über RTSP – und mussten daher in andere Protokolle wie SRT, RTMP oder HLS überführt werden.
 
 Bevor es MediaMTX gab, haben wir unseren Streaming‑Server selbst gebaut: mit nginx + rtmp‑Modul, ffmpeg und eigenen SRT‑Pipelines, teilweise speziell für den Raspberry Pi kompiliert. Inzwischen gibt es in der Open‑Source‑Welt deutlich ausgereiftere Werkzeuge. MediaMTX ist eines davon, ebenso wie der datarhei Restreamer. Dieses Repository dokumentiert meine frühen Tests und Konfigurationen, um zu verstehen, wie sich MediaMTX in solche Workflows integrieren lässt und welche Möglichkeiten sich daraus ergeben.
